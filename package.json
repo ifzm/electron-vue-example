@@ -1,7 +1,10 @@
 {
     "name": "electron-vue",
     "version": "0.1.0",
-    "private": true,
+    "description": "electron vue example",
+    "author": "jim",
+    "private": false,
+    "license": "MIT",
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",

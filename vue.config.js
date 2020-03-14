@@ -3,7 +3,13 @@ module.exports = {
         electronBuilder: {
             builderOptions: {
                 // options placed here will be merged with default configuration and passed to electron-builder
-                publish: ['github'],
+                publish: [
+                    {
+                        provider: 'generic',
+                        url: 'https://ifzm.cn/apps/test/',
+                    },
+                    'github',
+                ],
                 appId: 'com.example.app',
                 productName: 'electron-vue',
                 win: {
