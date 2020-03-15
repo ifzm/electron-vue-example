@@ -11,19 +11,31 @@ yarn install
 ### Compiles and hot-reloads for development
 
 ```sh
+# web
 yarn serve
+# client
+yarn electron:serve
 ```
 
 ### Compiles and minifies for production
 
 ```sh
+# web
 yarn build
+# client
+yarn electron:build
 ```
 
 ### Lints and fixes files
 
 ```sh
 yarn lint
+```
+
+### Publish
+
+```sh
+yarn release
 ```
 
 ### Customize configuration
